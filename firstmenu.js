@@ -1,3 +1,4 @@
 function menu() {
-	$("button").onmouseover="dropdown";
+	$(this).onmouseover="expand";
+  $(this).onmouseout="collapse";
 }

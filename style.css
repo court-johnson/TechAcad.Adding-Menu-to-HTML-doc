@@ -35,6 +35,16 @@ nav {
 
 li a {
    color: white;
+   text-decoration: none;
+   display: inline-block;
+}
+
+li:hover {
+	background-color: #bbbbbb;
+	padding: 4px 5px 4px 4px;
+	border-style: ridge;
+	border-color: white;
+	border-radius: 8px;
 }
 
 li { 
@@ -51,7 +61,7 @@ li {
 
 .title {
   color: white;
-  font-size: 17px;
+  font-size: 20px;
   font-variant: small-caps;
   font-weight: bold;
   position: absolute;
