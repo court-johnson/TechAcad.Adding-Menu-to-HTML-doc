@@ -21,31 +21,24 @@
      <h1>News</h1>
      <p>Local and National New</p>
     </header>
-   <nav>
-     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="archive.html">Archives</a></li>
-      <li><a href="about.html">About</a></li>
+   <div id="nav">
+     <div id="nav_wrapper">  
+	   <ul> 
+	   <!-- Menu drop down -->
+	     <li class="menu"><a href="#">Menu</a>
+		   <ul class="submenu">
+		     <li><a href="#">Regional News</a></li>
+			 <li><a href="#">International News</a></li>
+			 <li><a href="#">Home</a></li>
+		   </ul> 
+	   <!-- End of menu drop down -->   
+		 </li><li>
+             <a href="#">Archives</a></li><li>
+             <a href="#">About</a></li>
 	  
-<!--Creating Menu and Dropdown submenu-->
-	  <table class="menu">
-	    <tr>
-		 <li class="title"><a href="#" style="text-decoration: none">Menu</a></li> 
-		 <div class="dropdown">
-		  <table class="submenu">
-		    <tr>
-	         <td class="menuitems">
-			   <a href="#" class="sub1">Regional News</a>
-	           <a href="#" class="sub2">International News</a>
-	           <a href="#" class="sub3">Contact Us</a>
-			 </td>
-		    <tr>
-		   </table>
-		 </div>	
-	  </table>
-     
 	 </ul>
-   </nav>
+   </div>
+   </div>
    
    <main>
      <section>
@@ -100,7 +93,9 @@
     <p>Footer Information</p>
   </footer>
 
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
 <script type="text/Javascript" src="firstmenu.js"></script>
-  
+
+
   </body>
-</html>
+</html>	
